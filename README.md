@@ -5,6 +5,7 @@
 2、在XCode左侧的文件列表中找到ThemeStyle.plist文件（路径：Clan/Application/ThemeStyle.plist）。
 
 3、对Plist文件中的字段进行配置，其中配置项说明如下表所示：
+
 |YZBaseURL|论坛地址|
 |YZBasePath|插件接口的路径，固定为：api/mobile/iyz_index.php|
 |APPSTYLE|应用样式。1.tab风格，2.侧边栏风格|
