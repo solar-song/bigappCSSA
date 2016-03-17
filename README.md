@@ -20,7 +20,8 @@
 
 ![BigApp](./screenshots/2.png "BigApp")
 
-> 注：如下配置将不可用（站长认证、生成App、布局设置、推送设置、统计分析）
+> 注：如下配置将不可用（站长认证、生成App、布局设置、推送设置、统计分析）, 如图：
+> ![BigApp](./screenshots/1.png "BigApp")
 
 # 使用说明
 
