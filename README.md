@@ -6,7 +6,11 @@
 
 在使用源码之前必须先在Discuz论坛中安装BigApp插件。
 
-<b>安装步骤比较简单：在Discuz的应用中心搜索bigapp，点击安装并启用即可。</b>
+## 插件安装
+
+应用中心 -> 插件 -> 搜索bigapp -> 点击BigApp手机客户端 -> 安装应用即可
+
+安装步骤参考 [Bigapp安装方法](http://addon.discuz.com/?@bigapp.plugin.doc/install_step)
 
 ## 配置插件
 
