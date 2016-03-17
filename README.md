@@ -10,11 +10,11 @@
 |--------------------|-------------------------|
 |YZBaseURL|论坛地址|
 |YZBasePath|插件接口的路径，固定为：api/mobile/iyz_index.php|
-|APPSTYLE|应用样式。1.tab风格，2.侧边栏风格|
+|APPSTYLE|应用样式。<br />1.tab风格，<br />2.侧边栏风格|
 |YZSegMent|主题颜色|
 |YZBBSName|论坛名称，作为某些页面的视图标题（如首页）以及分享时的出处。|
 |kAPP_DOWNLOAD_URL|应用下载地址，用于跳转AppStore评价应用|
-|ShareAppkeySina|新浪微博的AppKey（用于分享）|
+|ShareAppkeySina|新浪微博的AppKey（用于分享）,<span style="color:red;">如果没有使用微博分享可不填</span>|
 |ShareAppSecretSina|新浪微博的AppSecret（用于分享）|
 |ShareAppRedirectUriSina|新浪微博的授权回调地址（用于分享）|
 |ShareAppkeyWechat|微信的AppKey（用于分享、登录）|
