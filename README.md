@@ -14,7 +14,7 @@
 |YZSegMent|主题颜色|
 |YZBBSName|论坛名称，作为某些页面的视图标题（如首页）以及分享时的出处。|
 |kAPP_DOWNLOAD_URL|应用下载地址，用于跳转AppStore评价应用|
-|ShareAppkeySina|新浪微博的AppKey（用于分享）,<font color="red">如果没有使用微博分享可不填</font>|
+|ShareAppkeySina|新浪微博的AppKey（用于分享）|
 |ShareAppSecretSina|新浪微博的AppSecret（用于分享）|
 |ShareAppRedirectUriSina|新浪微博的授权回调地址（用于分享）|
 |ShareAppkeyWechat|微信的AppKey（用于分享、登录）|
@@ -22,5 +22,6 @@
 |ShareAppkeyTecent|QQ的AppKey（用于分享、登录）|
 |ShareAppSecretTecent|QQ的AppSecret（用于分享、登录）|
 
+> 注：对于新浪、微信、QQ的应用信息设置，如果没有使用相关平台，可以不进行设置。
 
 4、编译运行应用。
