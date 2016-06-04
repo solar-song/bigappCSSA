@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>YZSegMent</key>
-	<string>36,170,21</string>
+	<string>255,0,0</string>
 	<key>YZBBSName</key>
-	<string>BigApp</string>
+	<string>UWCSSA</string>
 	<key>YZBaseURL</key>
-	<string>http://bbs.bigappdemo.com</string>
+	<string>http://bbs.uwcssa.com</string>
 	<key>YZBasePath</key>
 	<string>api/mobile/iyz_index.php</string>
 	<key>BIGAPPVERSION</key>
