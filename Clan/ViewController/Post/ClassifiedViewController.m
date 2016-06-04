@@ -186,41 +186,43 @@
     cell.postModel = _listArray[indexPath.row];
     return cell;
 }
-//{
-//    //帖子CELL
-//    if (!_isMoreImageType) {
-//        static NSString *postCollection = @"Post";
-//        PostCell *cell = [tableView dequeueReusableCellWithIdentifier:postCollection];
-//        if (cell == nil) {
-//            cell = [[[NSBundle mainBundle] loadNibNamed:@"PostCell" owner:self options:nil] lastObject];
-//        }
-//        cell.postModel = _listArray[indexPath.section];
-//        return cell;
-//        
-//    }
-//    else {
-//        PostModel *postModel = _listArray[indexPath.section];
-//        if (postModel.attachment_urls.count > 0) {
-//            //有图
-//            static NSString *postImages = @"PostImages";
-//            PostImageCell *cell = [tableView dequeueReusableCellWithIdentifier:postImages];
-//            if (cell == nil) {
-//                cell = [[[NSBundle mainBundle] loadNibNamed:@"PostImageCell" owner:self options:nil] lastObject];
-//            }
-//            cell.postModel = postModel;
-//            return cell;
-//        }else{
-//            static NSString *postNoImages = @"PostNoImages";
-//            PostNoImageCell *cell = [tableView dequeueReusableCellWithIdentifier:postNoImages];
-//            if (cell == nil) {
-//                cell = [[[NSBundle mainBundle] loadNibNamed:@"PostNoImageCell" owner:self options:nil] lastObject];
-//            }
-//            cell.postModel = postModel;
-//            return cell;
-//        }
-//        
-//    }
-//}
+/*
+{
+    //帖子CELL
+    if (!_isMoreImageType) {
+        static NSString *postCollection = @"Post";
+        PostCell *cell = [tableView dequeueReusableCellWithIdentifier:postCollection];
+        if (cell == nil) {
+            cell = [[[NSBundle mainBundle] loadNibNamed:@"PostCell" owner:self options:nil] lastObject];
+        }
+        cell.postModel = _listArray[indexPath.section];
+        return cell;
+        
+    }
+    else {
+        PostModel *postModel = _listArray[indexPath.section];
+        if (postModel.attachment_urls.count > 0) {
+            //有图
+            static NSString *postImages = @"PostImages";
+            PostImageCell *cell = [tableView dequeueReusableCellWithIdentifier:postImages];
+            if (cell == nil) {
+                cell = [[[NSBundle mainBundle] loadNibNamed:@"PostImageCell" owner:self options:nil] lastObject];
+            }
+            cell.postModel = postModel;
+            return cell;
+        }else{
+            static NSString *postNoImages = @"PostNoImages";
+            PostNoImageCell *cell = [tableView dequeueReusableCellWithIdentifier:postNoImages];
+            if (cell == nil) {
+                cell = [[[NSBundle mainBundle] loadNibNamed:@"PostNoImageCell" owner:self options:nil] lastObject];
+            }
+            cell.postModel = postModel;
+            return cell;
+        }
+        
+    }
+}
+ */
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
